@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form>
+        <label>
+            Name: <input type="text" placeholder="your name" required>
+        </label>
+       
+        <br><br>
+       
+        <label>
+            Email: <input type="mail" placeholder="mail" required>
+        </label>
+           
+        <br><br>
+
+        <label>
+            Password: <input type="password" placeholder="password" required>
+        </label>
+
+        <br><br>
+
+        <label>
+            Phone no.
+        </label>
+        <select>
+            <option>+91</option>
+            <option>+92</option>
+            <option>+93</option>
+            <option>+94</option>
+        </select>
+           <input type="phone" maxlength= "10" placeholder="+91 987_____">
+
+        <br><br>
+
+        <label>
+            Hobbies <input type="text" placeholder="Hobbies" required>
+        </label>
+
+        <br><br>
+
+        <label>
+            Timings <input type="checkbox" name="Timings" value="9:00 AM-10:00 AM">
+            9:00 AM-10:00 AM
+        </label>
+        
+        <label>
+            <input type="checkbox" name="Timings" value="11:00 AM-12:00 PM">
+            11:00 AM-12:00 PM
+        </label>
+        
+        <label>
+             <input type="checkbox" name="Timings" value="01:00 PM-02:00 PM">
+            01:00 PM-02:00 PM
+        </label>
+
+        <br><br>
+
+        <label>
+            Subject <input type="checkbox" name="text" value="Data Structure">
+            Data Structure
+        </label>
+        
+        <label>
+            <input type="checkbox" name="text" value="COA">
+            COA
+        </label>
+        
+        <label>
+             <input type="checkbox" name="text" value="Compiler">
+             Compiler
+        </label>
+        <br><br>
+
+        <input type="submit" value="submit" name="">       
+        <br>
+    </form>
+</body>
+</html>
